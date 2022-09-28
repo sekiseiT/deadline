@@ -1,0 +1,17 @@
+.container {
+  border: 1px solid red;
+  text-align: center;
+  background-color: beige;
+  font-size: 32px;
+}
+
+ul {
+  background-color: beige;
+  height: 150px;
+  width: auto;
+  padding:0 50px;
+}
+
+li {
+  padding: 15px;
+}
