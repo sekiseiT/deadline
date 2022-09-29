@@ -1,5 +1,5 @@
 //タイマー表示
-function countdown(){
+let countdown = () => {
   const now = new Date();
   const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1);//明日の0:00
   const differ = tomorrow.getTime() - now.getTime();//明日まで何ミリ秒か
@@ -22,7 +22,7 @@ const taskName = document.getElementById("title");
 const taskSubmit = document.getElementById("task_submit");
 const taskList = document.getElementById("task_list")
 
-function addTask(task){
+let addTask = (task) => {
   //タスクの表示
   const listItem = document.createElement('li');
   const showItem = taskList.appendChild(listItem);
