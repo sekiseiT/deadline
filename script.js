@@ -22,7 +22,8 @@ const taskName = document.getElementById("title");
 const taskSubmit = document.getElementById("task_submit");
 const taskList = document.getElementById("task_list")
 
-function addTask(task){
+// 基本的にfunctionは使わず、アロー関数で書く
+let addTask = (task) => {
   //タスクの表示
   const listItem = document.createElement('li');
   const showItem = taskList.appendChild(listItem);
