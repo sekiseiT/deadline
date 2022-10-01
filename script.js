@@ -1,5 +1,5 @@
 //タイマー表示
-function countdown(){
+let countdown = () => {
   const now = new Date();
   const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1);//明日の0:00
   const differ = tomorrow.getTime() - now.getTime();//明日まで何ミリ秒か

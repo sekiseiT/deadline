@@ -5,13 +5,27 @@
   font-size: 32px;
 }
 
-ul {
+#task_list {
   background-color: beige;
-  height: 150px;
-  width: auto;
+  
+  /* width: auto; */
   padding:0 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 li {
-  padding: 15px;
+  padding: 30px;
+  margin: 10px;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+li button {
+  width: 50px;
+
+  cursor: pointer;
+
+}
+
