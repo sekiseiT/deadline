@@ -14,7 +14,7 @@
   flex-wrap: wrap;
 }
 
-li {
+#item {
   padding: 30px;
   margin: 10px;
   background-color: orange;
@@ -22,7 +22,7 @@ li {
   flex-wrap: wrap;
 }
 
-li button {
+#item button {
   width: 50px;
 
   cursor: pointer;

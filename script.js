@@ -26,6 +26,7 @@ const taskList = document.getElementById("task_list")
 let addTask = (task) => {
   //タスクの表示
   const listItem = document.createElement('li');
+  listItem.id = "item"
   const showItem = taskList.appendChild(listItem);
   showItem.innerHTML = task;
 
